@@ -22,6 +22,11 @@ a{
 	text-decoration: none;
 }
 
+/*define different style classes*/
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
 .card-white {
 	background-color: #5F634F; 
 	padding: 40px;
@@ -54,6 +59,8 @@ a{
 .list-inline i {
 	color: rgba(230, 230, 230);
 }
+
+/*define an id style*/
 #small-margin{
 	margin-bottom: 30px;
 }
