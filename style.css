@@ -42,6 +42,7 @@ a{
 }
 .btn-purple:hover {
 	background-color: #EDDEA4;
+	color: #5F634F;
 }
 .list-inline {
 	list-style: none;
@@ -56,18 +57,22 @@ a{
 #small-margin{
 	margin-bottom: 30px;
 }
+
+/*Desktop size*/
 @media (max-width: 900px) {
 	.container {
 		width: 700px;
 	}
 }
 
+/*ipad size*/
 @media (max-width: 700px){
 	.container {
 		width: 500px;
 	}
 }
 
+/*phone size*/
 @media (max-width: 500px) {
 	.container {
 		width: 300px;
